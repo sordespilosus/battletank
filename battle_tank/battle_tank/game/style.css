@@ -1,0 +1,78 @@
+#wrap {
+	width: 390px;
+	height: 390px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -195px 0 0 -195px;
+	border: 1px solid #000;
+	background: #000;
+}
+
+#tank {
+	width: 39px;
+	height: 39px;
+	position: relative;
+	top: 352px;
+	left: 167px;
+	z-index: 10;
+}
+
+.playerBullet {
+	width: 9px;
+	height: 12px;
+	background: url('bul.png');
+	position: absolute;
+	z-index: 5;
+}
+
+.playerBullet_left {
+	width: 9px;
+	height: 12px;
+	background: url('bul.png');
+	position: absolute;
+	transform: rotate(-90deg);
+	z-index: 5;
+}
+
+.playerBullet_right {
+	width: 9px;
+	height: 12px;
+	background: url('bul.png');
+	position: absolute;
+	transform: rotate(90deg);
+	z-index: 5;
+}
+
+.playerBullet_bottom {
+	width: 9px;
+	height: 12px;
+	background: url('bul.png');
+	position: absolute;
+	transform: rotate(180deg);
+	z-index: 5;
+}
+
+.tank01 {
+	background: url('01.png');
+}
+
+.tank02 {
+	background: url('02.png');
+}
+
+.cannon_up {
+	transform: rotate(0deg);
+}
+
+.cannon_down {
+	transform: rotate(180deg);
+}
+
+.cannon_left {
+	transform: rotate(270deg);
+}
+
+.cannon_right {
+	transform: rotate(90deg);
+}
